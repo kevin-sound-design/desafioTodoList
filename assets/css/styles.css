@@ -11,10 +11,6 @@ main {
     background-color: #ececec;
 }
 
-form {
-    position: relative;
-}
-
 .inputButton {
     border: 0;
     background-color: #ffffff00;
