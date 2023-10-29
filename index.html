@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+    <main>
+        <h1>Todo List</h1>
+        <hr>
+        <article>Nueva tarea</article>
+        <form id="AddTask">
+            <input id="taskInput" type="text" name="tarea" required>
+            <input id="submitInput" type="submit" value="Agregar">
+        </form>
+        <section>
+            <div id="infotask">
+                <span>Total: <span id="totalTask">0</span></span>
+                <span>Realizadas: <span id="finishedTask">0</span></span>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                ID
+                            </th>
+                            <th>
+                                Tarea
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="taskTable">
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
